@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>médiathèque JS</title>
+	<link rel="icon" href="img/book.ico" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="js/Adherent.js" defer></script>
+	<script type="text/javascript" src="js/Livre.js" defer></script>
+	<script type="text/javascript" src="js/scenario.js" defer></script>
+</head>
+<body>
+	<div id="info"></div>
+	<div id="imagelivre"></div>
+	<h2>Médiathèque JavaScript</h2>
+	<div id="enregistrements">
+		<div id="ajoutAdherent">
+			<fieldset>
+				<legend>nouvel adhérent</legend>
+				<input type="text" id="nomAdherent" placeholder="nom...">
+				<input type="button" id="ajouterAdherent" value="ajouter">
+			</fieldset>
+		</div>
+		<div id="ajoutLivre">
+			<fieldset>
+				<legend>nouveau livre</legend>
+				<input type="text" id="titreLivre" placeholder="titre...">
+				<input type="button" id="ajouterLivre" value="ajouter">
+			</fieldset>
+		</div>
+	</div>
+	<div id="listes">
+		<div id="adh">
+			<fieldset>
+				<legend>adhérents</legend>
+				<div id="listeAdherents"></div>
+			</fieldset>
+		</div>
+		<div id="dispos">
+			<fieldset>
+				<legend>livres disponibles</legend>
+				<div id="listeLivresDisponibles"></div>
+			</fieldset>
+		</div>
+		<div id="empr">
+			<fieldset>
+				<legend>livres empruntés</legend>
+				<div id="listeLivresEmpruntes"></div>
+			</fieldset>
+		</div>
+	</div>
+</body>
+</html>

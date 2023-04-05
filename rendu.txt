@@ -1,0 +1,25 @@
+Surina 20% -  Dronne 80%
+
+3 listes : adhérents oui -> Surina / livres dispo oui-> Dronne / livres empruntés : oui-> Dronne
+ajout adhérent : oui -> Dronne
+ajout livre : oui -> Dronne
+emprunter un livre : oui -> Dronne
+retour d'un livre : oui -> Dronne
+nombre d'emprunts d'un adhérent : oui -> Dronne
+liste des livres empruntés d'un adhérent : oui -> Dronne
+
+# Liste des fonctionnalités supplémentaires :
+requêtes GET & POST : oui -> les deux
+suppression d'un livre : oui-> Dronne
+suppression d'un adhérent : oui -> Dronne
+emprunteur d'un livre : oui -> Dronne
+utilisation d'une API externe : oui -> Surina
+  -> Décrire en qq lignes l'API et les données qu'elle fournit
+  L'API utilise une recherche google book et donne une liste des livres correspondantes
+  à la recherche (dans notre cas, c'est une recherche par titre). Pour généraliser,
+  dans le cas où nous avons plusieurs résultats de recherche (ce qui est souvent le cas),
+  nous avons décidé donner les informations correspondantes à la première livre.
+  Pour chaque livre, il y a beaucoup d'information comme un numéro isbn, un titre, une description etc...
+  Mais ces informations ne sont pas toujours constantes pour chaque livre: parfois, il manque la couverture ou la description, par exemple.
+utilisation de fetch avec then : oui -> Dronne
+utilisation de fetch avec async/await : oui -> Dronne
